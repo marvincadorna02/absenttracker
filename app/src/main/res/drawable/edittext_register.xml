@@ -1,0 +1,17 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="@android:color/transparent"/>
+    <stroke
+        android:width="2dp"
+        android:color="#C4E0E5"/>
+
+    <corners android:radius="12dp"/>
+
+    <!-- ✅ dagdagan padding dito -->
+    <padding
+        android:left="15dp"
+        android:top="12dp"
+        android:right="15dp"
+        android:bottom="12dp"/>
+</shape>
