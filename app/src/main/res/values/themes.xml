@@ -1,8 +1,7 @@
 <resources>
     <style name="Theme.Absenttracker" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary button color -->
-        <item name="colorPrimary">#6C7CE8</item>
-        <item name="colorPrimaryVariant">#6C7CE8</item>
+        <item name="colorPrimary">#8c52ff</item>
         <item name="colorOnPrimary">#FFFFFF</item>
     </style>
 </resources>

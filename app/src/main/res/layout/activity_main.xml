@@ -11,18 +11,18 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/background" />
+        android:src="@drawable/wallpaper" />
 
     <!-- Card view Field -->
     <androidx.cardview.widget.CardView
         android:layout_width="320dp"
-        android:layout_height="400dp"
+        android:layout_height="370dp"
         android:layout_gravity="center"
         android:layout_margin="30dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         app:cardCornerRadius="20dp"
         app:cardElevation="16dp"
-        app:cardBackgroundColor="#3E4EB9">
+        app:cardBackgroundColor="#8c52ff">
 
         <!-- Content inside card -->
         <LinearLayout
@@ -98,7 +98,8 @@
                 android:text="Login"
                 android:background="@drawable/button_login_bg"
                 android:textColor="@android:color/white"
-                android:layout_marginTop="10dp"/>
+                android:layout_marginTop="10dp"
+                android:elevation="8dp"/>
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>

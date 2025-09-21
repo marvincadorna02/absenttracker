@@ -10,17 +10,17 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/background" />
+        android:src="@drawable/wallpaper" />
 
     <!--  Shadow box (CardView) -->
     <androidx.cardview.widget.CardView
         android:layout_width="320dp"
         android:layout_height="430dp"
         android:layout_gravity="center"
-        android:layout_margin="30dp"
-        app:cardCornerRadius="20dp"
+        android:layout_marginTop="18dp"
+        app:cardCornerRadius="18dp"
         app:cardElevation="16dp"
-        app:cardBackgroundColor="#3E4EB9">
+        app:cardBackgroundColor="#8c52ff">
 
         <!-- Content inside card -->
         <LinearLayout
@@ -49,7 +49,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="49dp"
                 android:hint=" School ID"
-                android:inputType="numberPassword"
+                android:inputType="number"
                 android:drawableLeft="@drawable/schoolid"
                 android:background="@drawable/edittext_bg"
                 android:textColor="@android:color/white"
@@ -78,7 +78,7 @@
                 android:id="@+id/etYearandCourse"
                 android:layout_width="match_parent"
                 android:layout_height="49dp"
-                android:hint=" Year/Course"
+                android:hint=" Course"
                 android:inputType="text"
                 android:drawableLeft="@drawable/course"
                 android:background="@drawable/edittext_bg"
@@ -106,14 +106,12 @@
             <Button
                 android:id="@+id/btnRegister"
                 android:layout_width="152dp"
-                android:layout_height="60dp"
-                android:text="Register"
-                android:textAllCaps="false"
+                android:layout_height="50dp"
+                android:text="Sign up"
+                android:background="@drawable/button_register_bg"
                 android:textColor="@android:color/white"
-                app:strokeColor="@android:color/white"
-                app:strokeWidth="2dp"
-                app:cornerRadius="12dp"
-                style="@style/Widget.MaterialComponents.Button" />
+                android:layout_marginTop="10dp"
+                android:elevation="10dp"/>
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
